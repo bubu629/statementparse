@@ -9,6 +9,6 @@ describe('StatementParse Desktop Engine', () => {
     expect(audit.discrepancy_cents).toBe(0);
     expect(audit.ocr_sign_flips_fixed).toBe(1);
     expect(audit.duplicate_suspects).toBe(1);
-    expect(audit.rows.length).toBe(8);
+    expect(audit.rows.length).toBe(9);
   });
 });
