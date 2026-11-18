@@ -15,7 +15,7 @@ export interface LicensePayload {
 }
 
 export let EMBEDDED_PUBLIC_KEY = `-----BEGIN PUBLIC KEY-----
-MCowBQYDK2VwAyEAv5SghvuPDR3jIvpwwWGXoXugpfqBrTmwoBAGOOOZsrY=
+MCowBQYDK2VwAyEAjRfipO5f8zBIxFY3ts40Z7Zj8SogCoMztww+jDgZsDw=
 -----END PUBLIC KEY-----`;
 
 const LICENSE_FILE = path.join(os.homedir(), '.statementparse', 'license.key');
